@@ -1,0 +1,13 @@
+{
+  "name": "Web-Scraping",
+  "version": "1.0.0",
+  "description": "A web scraping application using pupeeter",
+  "main": "index.js",
+  "author": "Sajid Ansari",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "json2csv": "^5.0.6",
+    "puppeteer": "^8.0.0"
+  }
+}
