@@ -8,8 +8,9 @@ dotenv.config({ path: "../.env" });
     headless: false,
   });
   const page = await browser.newPage();
+  const url = "https://github.com/login";
   try {
-    await page.goto("https://github.com/login");
+    await page.goto(url);
 
     enterEmail(page);
     await delay(4000);
